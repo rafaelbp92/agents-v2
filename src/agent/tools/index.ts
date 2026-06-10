@@ -1,4 +1,4 @@
-import { getDateTime } from "./dateTime";
+import { getDateTime } from "./dateTime.js";
 // All tools combined for the agent
 export const tools = {
     getDateTime
