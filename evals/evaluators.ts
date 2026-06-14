@@ -56,6 +56,9 @@ export const llmJudge = async (
       },
     ],
   });
+
+  // Convert 1-10 score to 0-1 range
+  return result.object.score / 10;
 };
 
 /**
